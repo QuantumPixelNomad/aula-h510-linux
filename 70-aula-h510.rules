@@ -1,0 +1,2 @@
+# AULA H510 (SinoWealth 258a:0029): let the logged-in desktop user reach the mouse's HID nodes.
+KERNEL=="hidraw*", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="258a", ATTRS{idProduct}=="0029", TAG+="uaccess"
